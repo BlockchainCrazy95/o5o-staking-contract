@@ -1,14 +1,14 @@
 [features]
 seeds = false
 [programs.devnet]
-dragon_staking_contract = "AK5penqfSfF1BeKj2xE6xnjNNra8EbQ2bWqaTx566Waa" 
+dragon_staking_contract = "Bnmuo5aGbvhwUGYkkZydyxgsyPNuXNL9GhkVH6XpKnu1" 
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "devnet"
-wallet = "/root/alphabets/key.json"
+wallet = "/root/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
